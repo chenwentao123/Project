@@ -139,7 +139,7 @@ img {
     float: left;
     height: 100%;
     /*line-height: 100px;*/
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .header-nav .nav-item a {
@@ -155,16 +155,17 @@ img {
 .site-header .header-sub-nav {
     overflow: hidden;
     position: absolute;
-    z-index: 1;
+    z-index: 20;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     height: 0;
     transition: height 0.2s ease-out;
     background: #fff;
-    margin-top:37px;
+    margin-top: 37px;
 }
-.site-header .header-sub-nav-inner{
+
+.site-header .header-sub-nav-inner {
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ccc;
 }
@@ -173,18 +174,18 @@ img {
     float: left;
 }
 
-.site-header .nav-item:hover .header-sub-nav{
+.site-header .nav-item:hover .header-sub-nav {
     height: 230px;
 }
 
 /*.item-child .children-list .space{*/
-    /*position:absolute;*/
-    /*top:35px;*/
-    /*left:0;*/
-    /*z-index:1;*/
-    /*width:1px;*/
-    /*height:100px;*/
-    /*background:#e0e0e0;*/
+/*position:absolute;*/
+/*top:35px;*/
+/*left:0;*/
+/*z-index:1;*/
+/*width:1px;*/
+/*height:100px;*/
+/*background:#e0e0e0;*/
 /*}*/
 
 .item-child .children-list li {
@@ -237,7 +238,7 @@ img {
     font-size: 12px;
 }
 
-.header-search{
+.header-search {
     float: right;
     width: 295px;
     height: 50px;
@@ -245,7 +246,8 @@ img {
     margin-top: 25px;
     position: relative;
 }
-.header-search .search-input{
+
+.header-search .search-input {
     width: 244px;
     height: 50px;
     border: 0;
@@ -255,7 +257,8 @@ img {
     font-size: 18px;
     text-indent: 10px;
 }
-.header-search .search-btn{
+
+.header-search .search-btn {
     width: 50px;
     height: 50px;
     border: 0;
@@ -265,11 +268,13 @@ img {
     transition: background 0.2s ease;
     font-weight: bold;
 }
-.header-search .search-btn:hover{
+
+.header-search .search-btn:hover {
     background: #ff6700;
     color: #fff;
 }
-.header-search .search-list{
+
+.header-search .search-list {
     width: 244px;
     border: 1px solid #ff6700;
     position: absolute;
@@ -277,16 +282,19 @@ img {
     top: 50px;
     display: none;
 }
-.header-search .search-list li{
+
+.header-search .search-list li {
     height: 25px;
     line-height: 25px;
     padding: 0 10px;
     cursor: pointer;
 }
-.header-search .search-list li:hover{
+
+.header-search .search-list li:hover {
     background: #e0e0e0;
 }
-.header-search .search-keywords{
+
+.header-search .search-keywords {
     height: 30px;
     line-height: 30px;
     position: absolute;
@@ -294,32 +302,37 @@ img {
     margin-top: -15px;
     right: 60px;
 }
-.header-search .search-keywords a{
+
+.header-search .search-keywords a {
     background: #e0e0e0;
     color: #333;
     font-size: 12px;
 }
+
 /*site-header结束*/
 
 /*home-hero-container开始*/
 .home-hero-container {
     height: 460px;
+    position: relative;
 }
 
 .site-category {
-    width: 230px;
+    width: 234px;
     height: 420px;
     padding: 20px 0;
     background: #333;
     background: rgba(0, 0, 0, 0.6);
-    position: relative;
+    position: absolute;
     font-size: 14px;
-    float:left;
+    float: left;
+    z-index:10;
 }
 
 .site-category-list li {
     width: 234px;
     height: 42px;
+    /*position:relative;*/
 }
 
 .site-category-list a {
@@ -339,9 +352,162 @@ img {
     background: #ff6700;
 }
 
-.picture {
-    float: left;
+.site-category-list i {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #e0e0e0;
+    font-weight: bold;
 }
+
+.site-category-list .children-clearfist {
+    overflow: hidden;
+    width: 795px;
+    height: 458px;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    z-index: 24;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    display: none;
+}
+
+.site-category-list li:hover .children-clearfist {
+    display: block;
+}
+
+.children-clearfist .children-list {
+    float: left;
+    width: 265px;
+    height: 458px;
+    margin: 0;
+    padding: 2px 0;
+    list-style-type: none;
+}
+
+.children-clearfist .children-list li {
+    position: relative;
+    float: left;
+    width: 265px;
+    height: 76px;
+}
+
+.children-clearfist .children-list li .link {
+    width: 190px;
+    display: block;
+    padding: 17px 0 17px 20px;
+}
+
+.children-clearfist .link img {
+    margin-right: 12px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.children-clearfist .link .text {
+    line-height: 40px;
+    color: #333;
+}
+
+.children-clearfist .btn-buy {
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    z-index: 1;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+    transition: all .4s;
+    font-size: 12px;
+    text-align: center;
+}
+
+.children-clearfist .link:hover {
+    background-color: #fff;
+    color: #ff6700;
+}
+
+.children-clearfist .link .text:hover, .children-clearfist .link img:hover {
+    color: #ff6700;
+}
+
+.children-clearfist .btn-buy:hover {
+    color: #fff;
+}
+.home-hero-container #picture a img{
+    /*display:none;*/
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    transition: all 1s ease-in-out;
+}
+.home-hero-container #picture a .selected{
+    display:block;
+    opacity:1;
+}
+.home-hero-container #tab li{
+    width:6px;
+    height:6px;
+    color:#fff;
+    float:left;
+    margin-right:5px;
+    text-align:center;
+    line-height:20px;
+    background: rgba(0,0,0,0.4);
+    border:2px solid;
+    border-color: rgba(255,255,255,0.3);
+    border-radius:50%;
+    cursor:pointer;
+    transition: all .2s;
+}
+.home-hero-container #tab .choosed{
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(0,0,0,0.4);
+}
+.home-hero-container #tab{
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+.home-hero-container .arrows i{
+    width:41px;
+    height:69px;
+    cursor:pointer;
+    transition: all .4s;
+    text-align: center;
+    line-height:69px;
+    font-size:50px;
+    color:#757575
+}
+.home-hero-container .arrows i:hover{
+    background: rgba(0, 0, 0, 0.6);
+    color:#fff;
+}
+.home-hero-container .arrows .icon-back{
+    position:absolute;
+    overflow:hidden;
+    top:195px;
+    left:234px;
+}
+.home-hero-container .arrows .icon-more{
+    position:absolute;
+    top:195px;
+    right:0;
+}
+
 
 /*home-hero-container开始*/
 
