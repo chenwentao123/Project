@@ -1,3 +1,4 @@
+//轮播图开始
 var oTab = document.getElementById('tab');
 var aLi = oTab.getElementsByTagName('li');
 var oPic = document.getElementById('picture');
@@ -63,3 +64,4 @@ function play() {
         oNext.onclick();
     }, 5000);
 }
+//轮播图结束
