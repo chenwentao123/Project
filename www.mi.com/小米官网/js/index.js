@@ -65,3 +65,47 @@ function play() {
     }, 5000);
 }
 //轮播图结束
+
+//左右滚动开始
+var oScrollSub = document.getElementById('scroll-left-sub');
+var aScrollLi = document.getElementsByClassName('scroll-left-li');
+var aScrollSubLi = document.getElementsByClassName('scroll-sub-li');
+var aScrollBuy = document.getElementsByClassName('scroll-sub-buy');
+var aScrollItem1 = document.getElementsByClassName('star-scroll-item');
+var aScrollItem2 = document.getElementsByClassName('star-scroll-item2');
+var oStarNext = document.getElementById('star-scroll-next');
+var oStarLast = document.getElementById('star-scroll-last');
+var iStarParameter = -1;
+console.log(aScrollItem1);
+var fnStarTimer = function () {
+    for (var i = 0; i < aScrollItem1.length; i++) {
+        aScrollItem1[i].style.left = parseInt(aScrollItem1[i].style.left) + iStarParameter * 1226 + 'px';
+    }
+    for (var i = 0; i < aScrollItem2.length; i++) {
+        aScrollItem2[i].style.left = parseInt(aScrollItem2[i].style.left) + iStarParameter * 1226 + 'px';
+    }
+    if (iStarParameter == -1) {
+        oStarLast.className = '';
+        oStarNext.className = 'disable';
+    } else {
+        oStarLast.className = 'disable';
+        oStarNext.className = '';
+    }
+    iStarParameter *= -1;
+};
+var starTimer = setInterval(fnStarTimer, 5000);
+oStarLast.onclick = function () {
+    if (oStarLast.className != 'disable') {
+        fnStarTimer();
+        clearInterval(starTimer);
+        starTimer = setInterval(fnStarTimer, 5000);
+    }
+};
+oStarNext.onclick = function () {
+    if (oStarNext.className != 'disable') {
+        fnStarTimer();
+        clearInterval(starTimer);
+        starTimer = setInterval(fnStarTimer, 5000);
+    }
+};
+//左右滚动结束

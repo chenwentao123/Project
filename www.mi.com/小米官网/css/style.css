@@ -568,6 +568,7 @@ img {
     height:170px;
     position:absolute;
     left:397px;
+    left:593px\0;
 }
 .home-promo-list .first,.home-promo-list .second{
     margin-right:14px;
@@ -585,5 +586,108 @@ img {
 .span4 .home-channel-list li a {
     display:block;
 }
-/*home-hero-container开始*/
+/*home-hero-container结束*/
 
+
+/*site-star 开始*/
+#site-star{
+    height: 438px;
+    margin-top: 26px;
+}
+
+#site-star .container{
+    overflow: hidden;
+    position:relative;
+}
+
+#star-title{
+    font-weight:200;
+    font-size: 22px;
+    margin: 0;
+    line-height: 58px;
+    color: #333333;
+}
+
+#star-scroll-action{
+    width: 72px;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+#star-scroll-next{
+    display: inline-block;
+    float: right;
+    padding:3px 5px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+}
+
+#star-scroll-last{
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    padding:3px 5px;
+    border-right:1px solid #e0e0e0;
+    text-align: center;
+}
+
+#star-scroll{
+    float: left;
+    overflow: hidden;
+    width: 2480px;
+}
+
+#star-scroll>div{
+    float: left;
+    margin-right: 14px;
+    width: 234px;
+    height: 300px;
+    padding-top:39px;
+    background: #fafafa;
+    border-top:1px solid #ffac13;
+    text-align: center;
+}
+
+.star-scroll-img{
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.star-scroll-li2{
+    font-size: 14px;
+    color: #212121;
+    font-weight:400;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.star-scroll-li3{
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #b0b0b0;
+}
+
+.star-scroll-li4{
+    font-size: 100%;
+    color: #ff6700;
+    height: 21px;
+    line-height: 21px;
+}
+
+#star-scroll div{
+    position: relative;
+    transition: all 0.3s;
+}
+
+.disable{
+    cursor: default;
+    color: #e0e0e0;
+}
+
+/*site-star 结束*/
