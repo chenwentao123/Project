@@ -567,8 +567,8 @@ img {
 .home-promo-list{
     height:170px;
     position:absolute;
-    left:397px;
-    left:593px\0;
+    left:592px;
+    /*left:593px\0;*/
 }
 .home-promo-list .first,.home-promo-list .second{
     margin-right:14px;
