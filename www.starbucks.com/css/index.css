@@ -258,6 +258,9 @@ img{
 #app #content_info span{
     margin-right:-5px;
 }
+#app #content_info .app-content-unibtn img{
+    display:none;
+}
 @media(max-width:768px){
     #app .app-web{
         display:none;
@@ -269,6 +272,9 @@ img{
     }
     #app #app-download img{
         display:none;
+    }
+    #app #content_info .app-content-unibtn img{
+        display:block;
     }
 }
 /*app结束*/
