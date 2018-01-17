@@ -12,8 +12,11 @@ a{
     min-height: 100%;
     width: 100%;
 }
+img{
+    display:block;
+}
 
-/*banner开始*/
+/*navbar开始*/
 #content{
     position: relative;
 }
@@ -55,6 +58,7 @@ a{
     transition: all 250ms ease-in-out;
     width: 73px;
     height:73px;
+    display:inline;
 }
 
 #log-in{
@@ -69,4 +73,142 @@ a{
     font-weight:bold;
     font-size:14px;
 }
-/*banner开始*/
+
+/*navbar结束*/
+
+/*item开始*/
+#item{
+    width:1920px;
+}
+.smallImage{
+    display:none;
+}
+
+@media(min-width:992px){
+    #item{
+        width:100%;
+    }
+    #item .bigImage{
+        width:100%;
+    }
+}
+@media(max-width:991px){
+    #item{
+        width:100%;
+    }
+    #item .bigImage{
+        display:none;
+    }
+    #item .smallImage{
+        display:block;
+        width:100%;
+    }
+}
+/*item结束*/
+
+/*rewards开始*/
+#rewards{
+    height:220px;
+    background: #0f0f0f;
+    color:#fff;
+    display:flex;
+}
+#rewards-mask{
+    flex-grow: 1;
+}
+#rewards-mask #contain{
+    height:220px;
+    float:right;
+    background: url(../image/rewards_bg.png) 0 0/120% no-repeat;
+}
+#rewards-mask #contain #carry{
+    margin-top: 75px;
+}
+#rewards-mask span{
+    font-size:18px;
+}
+#rewards-mask .rewards-mask-logo{
+    width:160px;
+    height:36px;
+}
+#rewards-content{
+    flex-grow: 1;
+}
+#contain_content{
+    padding-left:95px;
+    margin-top:35px;
+}
+#rewards-content .club{
+    font-size:25px;
+}
+#rewards-btn{
+    margin-top: 40px;
+}
+#rewards-btn .registered,#rewards-btn .log-in{
+    background: transparent;
+    border: 2px solid #a98e67;
+    padding: 14px 40px;
+    color: #a98e67;
+    margin-right:10px;
+}
+#rewards-btn .knowmore{
+    color: #a98e67;
+    margin-left: 30px;
+    font-size: 14px;
+}
+#rewards-btn span{
+    margin-right:-8px;
+}
+
+#rewards-btn .knowmore:hover{
+    color: #707070;
+}
+#rewards-btn .registered:hover,#rewards-btn .log-in:hover{
+    background:#a98e67;
+    color:#fff;
+}
+
+@media (max-width:767px) {
+    #rewards{
+        width:100%;
+        height:490px;
+        display:block;
+    }
+    #rewards-mask{
+        height: 150px;
+        text-align: center;
+        padding: 0 35px 35px 35px;
+    }
+    #rewards-mask .rewards-mask-logo{
+        margin:2px auto;
+    }
+    #rewards-mask #contain{
+        width:100%;
+        height:70px;
+    }
+    #contain_content{
+        width:100%;
+        height:310px;
+        text-align: center;
+        padding: 0 0 35px 0;
+        /*justify-content: center;*/
+        margin-top:0;
+    }
+    #rewards-content .intro{
+        font-size:18px;
+        margin:15px 0 20px 0;
+    }
+    #rewards-content #rewards-btn .registered,#rewards-content #rewards-btn .log-in{
+        width:50%;
+        border:2px solid #a98e67;
+        padding:14px 67px;
+        margin:7px auto;
+        display:block;
+    }
+    #rewards-content #rewards-btn .knowmore{
+        float:right;
+        margin-top:30px;
+        margin-right:30px;
+    }
+}
+/*rewards结束*/
