@@ -212,3 +212,63 @@ img{
     }
 }
 /*rewards结束*/
+
+/*app开始*/
+#app{
+    width:100%;
+    background-color: #EFEBE8;
+    position:relative;
+    overflow: hidden;
+}
+#app .app-web{
+    max-width: 100%;
+    height: auto;
+}
+#app .app-mobile{
+    display:none;
+}
+#app #app-download{
+    position:absolute;
+    top: 50%;
+    left: 42%;
+    margin-top: -65px;
+}
+#app #app-download img{
+    width:130px;
+    height:130px;
+}
+#app #content_info{
+    width: 352px;
+    height: 100px;
+    position:absolute;
+    top: 50%;
+    left: 44%;
+    margin-top: -50px;
+    -webkit-transform: translate(130px, 0);
+    transform: translate(130px, 0);
+}
+#app #content_info .app-content-intro{
+    font-size:18px;
+    color:#3d3d3d;
+    margin:0 0 14px;
+}
+#app #content_info a{
+    color:#a98e67;
+}
+#app #content_info span{
+    margin-right:-5px;
+}
+@media(max-width:768px){
+    #app .app-web{
+        display:none;
+    }
+    #app .app-mobile{
+        display:block;
+        max-width: 100%;
+        height: auto;
+    }
+    #app #app-download img{
+        display:none;
+    }
+}
+/*app结束*/
