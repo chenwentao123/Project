@@ -293,9 +293,6 @@ img{
     margin:7px auto;
     background:url(../image/udp-starbucks-cn.svg) center no-repeat;
 }
-/*#app-mobile .app-content-unibtn img{*/
-    /*margin:0;*/
-/*}*/
 @media(max-width:768px){
     #app{
         display:none;
