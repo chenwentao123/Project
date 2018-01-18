@@ -290,7 +290,7 @@ img{
     display:block;
     width:220px;
     height:75px;
-    margin:7px auto;
+    margin:7px auto 0;
     background:url(../image/udp-starbucks-cn.svg) center no-repeat;
 }
 @media(max-width:768px){
@@ -302,3 +302,104 @@ img{
     }
 }
 /*app结束*/
+
+/*mosaic开始*/
+#mosaic{
+    display:flex;
+}
+#mosaic .product{
+    width:761px;
+    display:block;
+    flex-grow: 1;
+    position:relative;
+}
+#mosaic .product img{
+    width:100%;
+    height:auto;
+}
+#mosaic .product .cell{
+    width:80%;
+    text-align: center;
+    position: absolute;
+    bottom:1%;
+    margin:0 auto;
+}
+#mosaic .product .cell h2{
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 10%;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffffe;
+}
+#mosaic .product .cell h3{
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 22px;
+    color: #a98e67;
+    padding: 0 10%;
+}
+@media(max-width:768px){
+    #mosaic{
+        display:block;
+    }
+    #mosaic .product{
+        width:100%;
+    }
+}
+/*mosaic结束*/
+
+/*wsg开始*/
+#wsg{
+    width:100%;
+    height:222px;
+    display:flex;
+    background: #106e4b;
+}
+#wsg .container-left,#wsg .container-right{
+    flex-grow: 1;
+}
+#wsg .container-left .wsg-container-img1{
+    background:url(../image/wsg-title.png) center/contain no-repeat;
+    width: 178px;
+    height: 128px;
+    float:left;
+    margin: 11px 25px 0;
+}
+#wsg .container-left .wsg-container-img2{
+    background:url(../image/wsg-qrcode.png) center/contain no-repeat;
+    width: 107px;
+    height: 150px;
+    float:left;
+    margin: auto 25px;
+}
+#wsg .container-right .wsg-container-img3{
+    background:url(../image/wsg-cup.png) center/contain no-repeat;
+    width: 99px;
+    height: 162px;
+    float:left;
+    margin: auto 25px;
+}
+#wsg .container-right .wsg-container-img4{
+    background:url(../image/wsg-wording.png) center/contain no-repeat;
+    width: 185px;
+    height: 142px;
+    float:left;
+    margin: 10px 25px 0;
+}
+#wsg .container-left .wsg-block-left{
+    float:right;
+    margin-top:35px;
+}
+#wsg .container-right .wsg-block-right{
+    height:162px;
+    margin-top:29px;
+}
+/*wsg结束*/
