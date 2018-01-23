@@ -462,23 +462,31 @@ img{
     width:100%;
     height:220px;
     background:url(../image/web-bg.png) repeat-x;
+    display:flex;
+    text-align: center;
+}
+#apple-watch-web .container-left,#apple-watch-web .container-right{
+    flex-grow: 1;
+    height:220px;
+}
+.watch-cn-image,.watch-intro,.watch-qrcode{
+    float:left;
 }
 #apple-watch-web .watch-cn-image{
     width: 408px;
     height: 220px;
     background: url(../image/web-iwatch-cn.png) center/contain no-repeat;
-    display: inline-block;
+    float:right;
+
 }
 #apple-watch-web .watch-intro{
     width:480px;
     height:161px;
 }
 #apple-watch-web .watch-intro p{
-    display:block;
     text-align: left;
-    width: 480px;
     font-size: 18px;
-    padding: 35px 68px 0 68px;
+    padding: 35px 64px 0 64px;
     line-height: 28px;
     color: #3d3d3d;
 }
@@ -487,14 +495,13 @@ img{
     background-color: transparent;
 }
 #apple-watch-web .watch-qrcode{
-    display: inline-flex;
-    vertical-align: top;
+    width:130px;
+    height:207px;
     padding-top: 35px;
     padding-left: 20px;
     margin: 0;
 }
 #apple-watch-web .watch-qrcode  .qrcode{
-    flex: 0 0 130px;
     width: 130px;
     height: 130px;
     background: url(../image/app_qr_20170209.png) center/contain no-repeat;
