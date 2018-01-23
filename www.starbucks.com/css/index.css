@@ -461,7 +461,7 @@ img{
 #apple-watch-web{
     width:100%;
     height:220px;
-    background:url(../image/)
+    background:url(../image/web-bg.png) repeat-x;
 }
 
 /*apple-watch结束*/
