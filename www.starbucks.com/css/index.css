@@ -526,6 +526,14 @@ img{
     margin: 0 auto;
     background: url(../image/mobile-iwatch-cn.png) center/contain no-repeat;   
 }
+#apple-watch-mobile .watch-intro p{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 31px;
+    line-height: 28px;
+    color: #3d3d3d;
+}
 
 /*apple-watch结束*/
 
