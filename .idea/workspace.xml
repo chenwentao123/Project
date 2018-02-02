@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www.starbucks.com/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="551">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -42,6 +42,7 @@
                 <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#a#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#5294#5298#1" expanded="true" />
                 <element signature="e#5340#5344#1" expanded="true" />
@@ -82,8 +83,8 @@
         <option value="$PROJECT_DIR$/www.mi.com/小米官网/css/style.css" />
         <option value="$PROJECT_DIR$/www.mi.com/小米官网/js/index.js" />
         <option value="$PROJECT_DIR$/www.starbucks.com/js/index.js" />
-        <option value="$PROJECT_DIR$/www.starbucks.com/index.html" />
         <option value="$PROJECT_DIR$/www.starbucks.com/css/index.css" />
+        <option value="$PROJECT_DIR$/www.starbucks.com/index.html" />
       </list>
     </option>
   </component>
@@ -114,6 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,14 +181,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/fellows19" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -312,13 +313,9 @@
       <workItem from="1516589320264" duration="5000" />
       <workItem from="1516708651264" duration="8190000" />
       <workItem from="1516720187605" duration="31000" />
-    </task>
-    <task id="LOCAL-00001" summary="小米官网项目">
-      <created>1508311381485</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1508311381485</updated>
+      <workItem from="1516805132040" duration="493000" />
+      <workItem from="1516866698127" duration="40000" />
+      <workItem from="1516867050945" duration="398000" />
     </task>
     <task id="LOCAL-00002" summary="小米官网项目">
       <created>1508311543017</created>
@@ -593,15 +590,85 @@
       <option name="project" value="LOCAL" />
       <updated>1516720006990</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="小米官网项目">
+      <created>1516805170350</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805170350</updated>
+    </task>
+    <task id="LOCAL-00042" summary="小米官网项目">
+      <created>1516805196370</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805196370</updated>
+    </task>
+    <task id="LOCAL-00043" summary="小米官网项目">
+      <created>1516805224758</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805224758</updated>
+    </task>
+    <task id="LOCAL-00044" summary="小米官网项目">
+      <created>1516805252095</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805252095</updated>
+    </task>
+    <task id="LOCAL-00045" summary="小米官网项目">
+      <created>1516805333765</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805333765</updated>
+    </task>
+    <task id="LOCAL-00046" summary="小米官网项目">
+      <created>1516805359612</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805359612</updated>
+    </task>
+    <task id="LOCAL-00047" summary="小米官网项目">
+      <created>1516805383536</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805383536</updated>
+    </task>
+    <task id="LOCAL-00048" summary="小米官网项目">
+      <created>1516805407517</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805407517</updated>
+    </task>
+    <task id="LOCAL-00049" summary="小米官网项目">
+      <created>1516805458079</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805458079</updated>
+    </task>
+    <task id="LOCAL-00050" summary="小米官网项目">
+      <created>1516805490727</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1516805490727</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95508000" />
+    <option name="totallyTimeSpent" value="96439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12328767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -919,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www.starbucks.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="551">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -938,6 +1005,7 @@
             <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#a#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5294#5298#1" expanded="true" />
             <element signature="e#5340#5344#1" expanded="true" />
