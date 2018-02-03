@@ -519,6 +519,7 @@ img{
 #apple-watch-mobile{
     width:100%;
     height:630px;
+    background:url(../image/mobile-bg.png) repeat-x;
     display:none;
 }
 #apple-watch-mobile .watch-cn-image{
@@ -529,9 +530,9 @@ img{
 }
 #apple-watch-mobile .watch-intro p{
     text-align: center;
-    width: 100%;
     font-size: 18px;
     padding: 0 31px;
+    margin:0 42px 14px 42px;
     line-height: 28px;
     color: #3d3d3d;
 }
@@ -541,7 +542,14 @@ img{
     height:22px;
     margin: 0 auto;
     color: #967a50;
-    text-decoration: underline;
+    text-decoration: none;
+}
+#apple-watch-mobile .watch-udp-btn{
+    display: block;
+    width: 188px;
+    height: 75px;
+    margin:0 auto;
+    /* background: url(../image/udp-starbucks-cn.svg) center/contain no-repeat; */
 }
 @media(max-width:1068px){
     #apple-watch-mobile{
